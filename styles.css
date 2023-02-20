@@ -22,7 +22,6 @@ a{
     height: 600px;
     background-color: #1f2937;
     color: #F8FAF8;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -59,7 +58,7 @@ a{
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .img{
@@ -79,3 +78,39 @@ button{
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card{
+    flex-basis: 200px;
+    align-self: center;
+}
+
+.image{
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: .8em;
+    margin: 0 auto;
+}
+
+.text{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
