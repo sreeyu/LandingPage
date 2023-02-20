@@ -9,6 +9,7 @@ body{
 ul{
     list-style: none;
     font-size: 18px;
+    font-weight: 200;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,9 +20,8 @@ a{
     color: #E5E7EB;;
 }
 .header{
-    height: 600px;
+    height: 550px;
     background-color: #1f2937;
-    color: #F8FAF8;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -31,8 +31,8 @@ a{
 .headerLogo{
     font-size: 24px;
     color: #F9FAF8;
-    
-    
+    font-weight: bold;
+    margin-top: 16px;
     display: flex;
     justify-content: space-around;
 }
@@ -41,12 +41,13 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 180px;
+    gap: 100px;
 }
 
 .about{
     flex-wrap: wrap;
-    flex-basis: 28%;
+    flex-basis: 30%;
+    
 }
 
 .heading{
@@ -62,21 +63,21 @@ a{
 }
 
 .img{
-    background-color: grey;
+    background-color: #b5c9de;
     display: flex;
-    flex-basis: 30%;
+    flex-basis: 35%;
     justify-content: center;
     align-items: center;
 }
 
 button{
     border: #3882F6;
-    font: 1.2em;
-    padding: 0.5em 2.5em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .6em 2.5em;
     border-radius: 0.5em;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: bold;
 }
 
 .title{
@@ -114,3 +115,26 @@ button{
     word-wrap: break-word;
 }
 
+.quote{
+    margin: 60px 0;
+    padding: 60px 0;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.insp{
+    
+    padding: 0 340px;
+    font-size: 36px;
+    font-style: italic;
+    flex: 1;
+}
+
+.thor{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
